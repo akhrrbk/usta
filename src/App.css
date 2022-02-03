@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.section__padding {
+  padding: 4rem 6rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.gradient_bg {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    #ffef5d 0%,
+    #e3c427 50%,
+    #d9a614 100%
+  );
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    #ffef5d 0%,
+    #e3c427 50%,
+    #d9a614 100%
+  );
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, #ffef5d 0%, #e3c427 50%, #d9a614 100%);
 
-.App-link {
-  color: #61dafb;
-}
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D9A614', endColorstr='#FFEF5D', GradientType=0 );
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, #ffef5d 0%, #e3c427 50%, #d9a614 100%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, #ffef5d 0%, #e3c427 50%, #d9a614 100%);
 }

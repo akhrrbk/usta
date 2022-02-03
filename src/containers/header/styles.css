@@ -1,0 +1,16 @@
+.usta__header {
+  height: 50vh;
+  padding: 0 20rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.usta__header-content {
+  padding-left: 10rem;
+  margin-top: 5rem;
+}
+
+.usta__header-img {
+}

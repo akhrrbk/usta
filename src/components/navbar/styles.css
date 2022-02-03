@@ -1,0 +1,43 @@
+.usta__navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.25rem 20rem;
+
+  background-color: black;
+  color: white;
+}
+
+.usta__navbar-container_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usta__navbar-container_items p {
+  margin: 0 1rem;
+}
+
+.usta__navbar-container_items p {
+  color: white;
+}
+.usta__navbar-container_items p a:hover {
+  color: red;
+}
+.usta__navbar-container_social {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 5rem;
+}
+
+.usta__navbar-container_social div {
+  margin: 0 1rem;
+}
+
+.usta__navbar-container_social div img {
+  height: 25px;
+  width: 25px;
+}
