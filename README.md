@@ -5,6 +5,6 @@ project uses Reactjs and has one dependency: react-icons
 application is deployed here [heroku](#)
 
 to run this project locally on your machine
-`git clone 
-npm install
+`git clone </br> 
+npm install </br>
 npm start`
