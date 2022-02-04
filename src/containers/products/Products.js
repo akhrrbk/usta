@@ -4,9 +4,12 @@ import Product from '../../components/product/Product'
 
 const Products = () => {
   return (
-      <div>
-          Products 
-          <Product />
+      <div className='usta__products'> 
+          <Product text='variable is undefined' />
+          <Product text='variable is undefined' />
+          <Product text='variable is undefined' />
+          <Product text='variable is undefined' />
+          <Product text='variable is undefined' />
       </div>
   )
 };

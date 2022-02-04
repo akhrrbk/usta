@@ -1,0 +1,10 @@
+.usta__news {
+  border: 1px solid black;
+  margin: 1rem 20rem;
+  height: 30vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

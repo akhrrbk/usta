@@ -1,0 +1,21 @@
+.usta__partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 20rem;
+  height: 20vh;
+  border: 1px solid red;
+}
+
+.usta__partners div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

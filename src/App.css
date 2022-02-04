@@ -31,3 +31,7 @@
   /* global 94%+ browsers support */
   background: linear-gradient(90deg, #ffef5d 0%, #e3c427 50%, #d9a614 100%);
 }
+
+* {
+  font-family: "Proxima Nova Rg", sans-serif;
+}

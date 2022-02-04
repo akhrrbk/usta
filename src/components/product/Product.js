@@ -1,10 +1,12 @@
 import React from 'react';
 import './styles.css'
+import { imgtwo } from '../../assets/imports'
 
-const Product = () => {
+const Product = ({text}) => {
   return (
-      <div>
-          <p>with Product inside</p>
+      <div className='usta__product'>
+          <img src={imgtwo} alt="" />
+          <p>{text}</p>
       </div>
   )
 };
