@@ -1,8 +1,8 @@
-I am trying to build a clone this website [another website](http://vestaelectric.uz/en.html)
+I am trying to build a clone this [website](http://vestaelectric.uz/en.html)
 
 project uses Reactjs and has one dependency: react-icons
 
-application is deployed here [heroku](#)
+application is not deployed to a [website](#) yet
 
 to run this project locally on your machine </br>
 `git clone` -> `npm install` -> `npm start`
