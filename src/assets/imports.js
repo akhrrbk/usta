@@ -13,10 +13,10 @@ export { default as atlassian } from './atlassian.png'
 export { default as dropbox } from './dropbox.png'
 export { default as shopify } from './shopify.png'
 export { default as en } from './en.png'
-
 export { default as yellowwave } from './yellowwave.png'
 export { default as whitewave } from './whitewave.png'
 export { default as blackwave } from './blackwave.png'
-
 export { default as whitelogo } from './whitelogo.svg'
 export { default as logo } from './logo.svg'
+export { default as down } from './down.png'
+export { default as bg2 } from './bg2.png'
