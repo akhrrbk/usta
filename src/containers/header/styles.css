@@ -5,6 +5,20 @@
   z-index: -2;
 }
 
+.whitewave {
+  position: absolute;
+  right: -30rem;
+  top: 1rem;
+  z-index: -1;
+}
+
+.whitewave2 {
+  position: absolute;
+  left: -25rem;
+  bottom: 0;
+  z-index: -1;
+}
+
 .usta__header-nav {
   display: flex;
   flex-direction: row;
@@ -84,18 +98,4 @@
 .usta__header-container div img {
   padding-top: 3rem;
   padding-right: 5rem;
-}
-
-.blackwave {
-  position: absolute;
-  left: -30rem;
-  bottom: 0;
-  z-index: -1;
-}
-
-.whitewave {
-  position: absolute;
-  right: -20rem;
-  bottom: -1rem;
-  z-index: -1;
 }

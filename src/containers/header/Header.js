@@ -7,9 +7,8 @@ const Header = () => {
   return (
     <div className='usta__header gradient_bg'>
         <img className='whitewave' src={whitewave} alt="" />
-        <img className='blackwave' src={blackwave} alt="" />
-      <div className='parent'>
-      </div>
+        <img className='whitewave2' src={blackwave} alt="" />
+
       <div className='usta__header-nav'>
         <div className='usta__header-nav_left'>
           <div><img src={logo} alt="" /></div>
