@@ -1,56 +1,110 @@
 .usta__footer {
-  border: 1px solid black;
-  height: 35vh;
   margin-top: 1rem;
-  background-color: lightgray;
+  background-color: #2c2c2c;
+  color: #f2f2f2;
 }
 
 .usta__footer-container {
-  margin: 0 20rem;
+  margin: 0 25rem;
+  height: 35vh;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
-.usta__footer-container_header {
+.usta__footer-container div {
+  font-size: 1rem;
+}
+
+.usta__footer-container_links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-  margin-top: 3rem;
+  align-items: center;
 }
 
-.usta__footer-container_adress {
+.usta__footer-container_middle {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
 
-.usta__footer-container_adress_input {
+.usta__footer-container_middle_left {
+  flex: 1;
+}
+
+.usta__footer-container_middle_left div,
+.usta__footer-container_middle_right div {
+  margin: 6px 0;
+}
+
+.usta__footer-container_middle_left_searchbar {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  align-content: center;
 }
 
-.usta__footer-container_adress_input div {
+.inputarea {
+  height: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 1rem;
+  margin-right: 5rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px;
+}
+
+.searchicon {
   margin-left: 1rem;
 }
 
-.usta__footer-container_adress_first {
+.usta__footer-container_middle_right {
   flex: 1;
 }
 
-.usta__footer-container_adress_second {
-  flex: 1;
+.usta__footer-container_middle_right div:nth-child(2) {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.usta__footer-container_middle_right div:nth-child(1) {
+  color: gray;
+}
+
+span {
+  color: #ffcc00;
 }
 
 .usta__footer-container_bottom {
-  margin: 3rem 0;
-  margin-bottom: 0;
-
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
   align-items: center;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.usta__footer-container_bottom_left {
+  display: flex;
+  flex-direction: row;
   justify-content: flex-start;
+}
+
+.usta__footer-container_bottom_left div {
+  margin: 0 1rem;
+}
+
+.usta__footer-container_bottom_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.usta__footer-container_bottom_right div {
+  margin: 0 2rem;
 }
