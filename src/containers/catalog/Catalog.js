@@ -4,7 +4,8 @@ import {imgtwo, imgone, imgthree, imgfour, imgfive, down, bg2, blackwave} from '
 
 const Catalog = () => {
   return (
-      <div className='usta__calatog'>
+      <div className='usta__calatog' style={{position: 'relative'}}>
+        <div className='usta__catalog-all'>
         <div><h1>Lorem ipsum dolor sit.</h1></div>
         <div className='usta__catalog-container'>
           <div className='usta__catalog-container_left'>
@@ -53,6 +54,7 @@ const Catalog = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
   )

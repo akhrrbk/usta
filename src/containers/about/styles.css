@@ -1,5 +1,6 @@
 .usta__about {
   height: 75vh;
+  overflow-x: hidden;
 
   display: flex;
   flex-direction: column;

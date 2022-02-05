@@ -5,7 +5,6 @@ import {google, slack, atlassian, dropbox, shopify, yellowwave} from '../../asse
 const Partners = () => {
   return (
       <div className='usta__partners'>
-        <img className='yellowwave' style={{position: 'absolute', right: '-30rem'}} src={yellowwave} alt="" />
          <div className='usta__partners-images'>
             <div><img src={google} alt="google" /></div>
             <div><img src={slack} alt="slack" /></div>

@@ -17,8 +17,6 @@ const Products = () => {
   return (
       <div className='usta__products'> 
           <img className='blackwave' src={blackwave} alt="" />
-          <img className='yellowwave' src={yellowwave} alt="" />
-          <img className='bg2' src={bg2} style={{position: 'absolute'}} alt="" />
           <img className='bg23' src={bg2} style={{position: 'absolute'}} alt="" />
           <div className='usta__products-content'>
             <h1>Lorem, ipsum dolor</h1>

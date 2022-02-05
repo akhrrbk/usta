@@ -1,14 +1,18 @@
 .usta__calatog {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
 
-  margin: 0 25rem;
-  height: 115vh;
+  height: fit-content;
   background-color: white;
+  z-index: 1;
+  overflow: visible;
 }
 
-.usta__calatog div h1 {
-  margin: 3rem 0;
+.usta__catalog-all {
+  position: relative;
+  margin: 0 25rem;
+  margin-top: 2rem;
 }
 
 .usta__catalog-container {

@@ -5,16 +5,16 @@ import Searchbar from './components/searchbar/Searchbar'
 
 function App() {
   return (
-    <div>
+    <div className='usta__app'>
       <Navbar />
       {/* <Searchbar /> */}
-      <Header />
+      <Header />  
       <Catalog />
       <Products />
       <About />
-      <News />
-      <Partners />
-      <Footer />
+        <News />
+        <Partners />
+        <Footer />
     </div>
   );
 }

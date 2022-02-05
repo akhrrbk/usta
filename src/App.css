@@ -1,8 +1,3 @@
-.section__padding {
-  padding: 4rem 6rem;
-  width: 100%;
-}
-
 .gradient_bg {
   /* ff 3.6+ */
   background: -moz-linear-gradient(
@@ -55,8 +50,4 @@
 
 * {
   font-family: "Proxima Nova Rg", sans-serif;
-}
-html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
 }

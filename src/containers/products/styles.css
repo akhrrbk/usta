@@ -1,5 +1,5 @@
 .usta__products {
-  height: 60vh;
+  height: fit-content;
 
   position: relative;
   margin-top: 10rem;
@@ -9,26 +9,12 @@
   position: absolute;
   left: -30rem;
   top: -20rem;
-  z-index: 0;
-}
-
-.yellowwave {
-  position: absolute;
-  right: -20rem;
-  bottom: -10rem;
-  z-index: 0;
-}
-
-.bg2 {
-  position: absolute;
-  right: -20rem;
-  top: -5rem;
-  z-index: -1;
+  z-index: 1;
 }
 
 .bg23 {
   position: absolute;
-  left: -16rem;
+  left: -35rem;
   bottom: 4rem;
   z-index: -1;
   transform: rotate(180deg);
