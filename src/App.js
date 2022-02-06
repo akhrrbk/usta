@@ -9,11 +9,11 @@ function App() {
       <Navbar />
       <Header />  
       <Catalog />
-      {/* <Products />
-      <About />
-          <News />
-          <Partners />
-          <Footer /> */}
+      <Products />
+      {/* <About />
+      <News />
+      <Partners />
+      <Footer /> */}
     </div>
   );
 }
