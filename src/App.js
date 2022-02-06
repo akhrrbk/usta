@@ -1,5 +1,5 @@
 import './App.css';
-import { Catalog, About, Footer, Header, News, Partners, Products } from './containers';
+import { Catalog, About, Footer, Header, News, Partners, Products, Newsandpartners } from './containers';
 import Navbar from './components/navbar/Navbar'
 import Searchbar from './components/searchbar/Searchbar'
 
@@ -10,10 +10,12 @@ function App() {
       <Header />  
       <Catalog />
       <Products />
-      {/* <About />
-      <News />
-      <Partners />
-      <Footer /> */}
+      <About />
+      <Newsandpartners />
+      {/* <News /> */}
+      {/* <Partners /> */}
+      
+      <Footer />
     </div>
   );
 }
