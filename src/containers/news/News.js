@@ -6,7 +6,7 @@ const News = () => {
   return (
       <div className='usta__news'>
         <img className='bg22' style={{position: 'absolute', bottom: '-3.5rem'}} src={bg2} alt="" />
-        <img className='blackwave' style={{position: 'absolute'}} src={blackwave} alt="" />
+        <img className='bg2' style={{position: 'absolute', bottom: '-3.5rem'}} src={bg2} alt="" />
         <div className='usta__news-content'>
           <div className='usta__news-content_news'>News</div>
           <div className='usta__news-content_button'><button>button</button></div>

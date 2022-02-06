@@ -1,18 +1,9 @@
 .usta__navbar {
+  height: 2.25rem;
+  color: white;
   background-color: #2c2c2c;
-  color: #f2f2f2;
-  padding: 9px 0;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.usta__navbar-container {
-  margin: 0 25rem;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-top: 0.3rem;
+  width: 100%;
 
   display: flex;
   flex-direction: row;
@@ -20,41 +11,110 @@
   align-items: center;
 }
 
-.usta__navbar-container_left {
+/* left side of the navbar */
+.usta__navbar-left {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
 }
 
-.usta__navbar-container__links {
-  display: flex;
-  flex-direction: row;
-
-  margin: 0 1rem;
-}
-
-.usta__navbar-container__links div {
-  margin: 0 1rem;
-}
-
-.usta__navbar-container_right {
+.usta__navbar-left_links {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.usta__navbar-container_right_social {
-  display: flex;
-  flex-direction: row;
-
-  margin-right: 2rem;
+.usta__navbar-left_links div {
+  margin: 0 1rem;
 }
 
-.usta__navbar-container_right_social div {
+.usta__navbar-left_home {
+  margin: 0 1rem;
+  padding-left: 1rem;
+}
+
+/* right side of the navbar */
+.usta__navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.usta__navbar-right_social {
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.usta__navbar-right_social div img {
+  width: 1.5rem;
+  height: 1.5rem;
+
   padding: 0 1rem;
 }
 
-.usta__navbar-container_right_social div img {
-  height: 1.5rem;
-  width: 1.5rem;
+.usta__navbar-right_lang {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0 1rem;
+}
+
+.usta__navbar-right_lang div {
+  padding: 0 0.5rem;
+}
+
+.usta__navbar-right_menu {
+  margin: 1rem;
+  position: relative;
+  display: none;
+}
+
+/* toggle menu settings */
+.usta__navbar-right_menu {
+  cursor: pointer;
+}
+
+.usta__navbar-right_menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: #2c2c2c;
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* responsive screen settings */
+@media screen and (max-width: 850px) {
+  .usta__navbar-right_menu {
+    display: flex;
+  }
+
+  .usta__navbar-left_links {
+    display: none;
+  }
+
+  .usta__navbar-right_social div img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .usta__navbar-right_lang,
+  .usta__navbar-right_social {
+    display: none;
+  }
 }

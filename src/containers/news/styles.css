@@ -1,6 +1,7 @@
 .usta__news {
-  position: relative;
   margin-bottom: 2rem;
+  z-index: 1;
+  position: relative;
 }
 
 .usta__news-content {
@@ -11,6 +12,7 @@
   justify-content: space-around;
 
   height: 20vh;
+  position: relative;
 }
 
 .usta__news-content_button button {
@@ -36,18 +38,12 @@
   color: #2c2c2c;
 }
 
-.blackwave {
-  position: absolute;
-  top: -15rem;
-  left: -25rem;
-  z-index: -1;
-}
-
 .bg2 {
   position: absolute;
-  top: -4rem;
-  right: -10rem;
+  top: 0rem;
+  left: -40rem;
   z-index: -1;
+  transform: rotate(180deg);
 }
 
 .bg22 {

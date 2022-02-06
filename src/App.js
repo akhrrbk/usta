@@ -7,14 +7,13 @@ function App() {
   return (
     <div className='usta__app'>
       <Navbar />
-      {/* <Searchbar /> */}
       <Header />  
-      <Catalog />
-      <Products />
+      {/* <Catalog /> */}
+      {/* <Products />
       <About />
-        <News />
-        <Partners />
-        <Footer />
+          <News />
+          <Partners />
+          <Footer /> */}
     </div>
   );
 }
