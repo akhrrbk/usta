@@ -8,7 +8,7 @@ function App() {
     <div className='usta__app'>
       <Navbar />
       <Header />  
-      {/* <Catalog /> */}
+      <Catalog />
       {/* <Products />
       <About />
           <News />

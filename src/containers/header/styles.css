@@ -17,7 +17,6 @@
   align-items: center;
 
   margin: 3rem 5vw;
-  border: 1px solid black;
 }
 
 .usta__header-nav_left {
@@ -28,7 +27,7 @@
 }
 
 .usta__header-nav_left div {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .usta__header-nav_right {
@@ -47,13 +46,17 @@
   margin: 0 1rem;
 }
 
+.usta__header-nav_right div:nth-child(2) {
+  margin-right: 3rem;
+}
+
 .usta__header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 
   margin-bottom: 3rem;
-  border: 1px solid black;
+  margin: 0 1rem;
 }
 
 .whitewave2 {
